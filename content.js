@@ -2,7 +2,8 @@
   'use strict';
 
   const script = document.createElement("script");
-  script.src = chrome.runtime.getURL("inject.js");
+  const browserAPI = typeof browser !== 'undefined' ? browser : chrome;
+  script.src = browserAPI.runtime.getURL("inject.js");
   (document.head || document.documentElement).appendChild(script);
 
 const FLAG_MAP = {

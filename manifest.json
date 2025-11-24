@@ -1,8 +1,14 @@
 {
   "manifest_version": 3,
   "name": "Twitter Flags",
-  "version": "1.0.0",
-  "description": "Displays country-of-origin flags next to Twitter usernames",
+  "version": "1.1.0",
+  "description": "Displays country flags next to Twitter usernames",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "twitter-flags@example.com",
+      "strict_min_version": "109.0"
+    }
+  },
   "permissions": [],
   "host_permissions": [
     "https://twitter.com/*",
