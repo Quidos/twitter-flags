@@ -15,7 +15,7 @@ A browser extension that displays country flags on Twitter/X profile hover cards
 4. Click "Load unpacked"
 5. Select the twitter-flags folder
 
-### Firefox (Temporary Add-on)
+### Firefox (Add-on available soon, for now a temporary solution:)
 
 2. Open Firefox and go to about:debugging#/runtime/this-firefox
 3. Click "Load Temporary Add-on…"
@@ -25,3 +25,4 @@ A browser extension that displays country flags on Twitter/X profile hover cards
 ### Coming Soon
 
 - Chrome Web Store
+- Firefox add-on
